@@ -74,3 +74,30 @@ body {
     margin: 0 auto;
     text-align: center;
 }
+
+@media (max-width: 1024px) {
+    body {
+        margin: 5px;
+        text-align: center;
+    }
+    .apresentacaoPersonagem {
+        width: 320px;
+        font-size: 20px;
+        padding: 0;
+        height: auto;
+    }
+    .opcoes1fase {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        width: 390px;
+        gap: 5px;
+    }
+    img {
+        display: none;
+    }
+    .vitoria {
+        word-wrap: break-word;
+    }
+}

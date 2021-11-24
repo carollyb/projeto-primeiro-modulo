@@ -66,3 +66,33 @@ footer {
     height: 40px;
     background-color: rgba(58, 25, 90, 0.514);
 }
+
+@media (max-width: 1024px) {
+
+    .bemvindo {
+        font-size: 16px;
+        height: auto;
+        width: auto;
+        word-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .contexto {
+        margin-top: 20px;
+        width: 320px;
+        height: auto;
+        padding: 0;
+    }
+    .self {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    footer {
+        height: auto;
+        font-size: 10px;
+    }
+}
