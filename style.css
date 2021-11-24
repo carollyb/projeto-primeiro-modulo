@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Mono:wght@600&family=Syne:wght@700&display=swap');
+
+
+body {
+    background-image:url(background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Syne', sans-serif;
+    text-align: center;
+    margin: 30px;
+}
+
+.apresentacaoPersonagem {
+    font-family: 'Syne', sans-serif;
+    color: rgb(58, 25, 90);
+    border-radius: 30px;
+    font-size: 30px;
+    height: auto;
+    padding: 15px;
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.425);  
+    backdrop-filter: blur(8px);
+    background-repeat: no-repeat;
+}
+
+.opcoes1fase {
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    gap: 30px;
+    margin: 0 auto;
+}
+
+.opcoes {
+    color: rgb(58, 25, 90);
+    height: 200px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Syne', sans-serif;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.425);  
+    backdrop-filter: blur(8px);
+}
+
+
+.botao {
+    height: 50px;
+    background-color:rgba(255, 255, 255, 0.425);
+    color: rgb(58, 25, 90);
+    border-radius: 10px;
+    border-color: rgb(58, 25, 90);
+    border-style: solid;
+    transition: 1s;
+}
+.botao:hover {
+    cursor:pointer;
+    background-color:  rgba(73, 27, 116, 0.424);
+}
+
+.vitoria {
+    font-family: 'Syne', sans-serif;
+    color:rgba(73, 27, 116, 0.424);
+    font-size: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
