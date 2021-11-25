@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Mono:wght@600&family=Syne:wght@700&display=swap');
 
 .bemvindo {
-    background-image:url(background3.jpg);
+    background-image:url(./background4.png);
     background-size: cover;
     background-position: center;
     font-family: 'Syne', sans-serif;
@@ -19,14 +19,14 @@
     border-radius: 30px;
     width: 800px;
     padding: 10px;
-    color: rgb(73, 27, 116);
+    color: rgb(116, 27, 27);
     background-color: rgba(255, 255, 255, .15);  
     backdrop-filter: blur(8px);
 }
 
 .self {
     margin: 80px;
-    justify-content: flex-start;
+    justify-self: flex-start;
 }
 
 .personagens {
@@ -35,14 +35,14 @@
     align-items: center;
     font-size: 19px;
     text-align: center;
-    color: rgb(58, 25, 90);
+    color: rgb(116, 27, 27);
     height: 150px;
     width: 250px;
     background-color: rgba(255, 255, 255, 0.555);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     border-style: solid;
-    border-color: rgba(58, 25, 90, 0.514);
+    border-color: rgba(116, 27, 27, 0.582);
     transition: 1s;
 }
 
@@ -64,7 +64,7 @@ footer {
     color: white;
     font-size: 15px;
     height: 40px;
-    background-color: rgba(58, 25, 90, 0.514);
+    background-color: rgb(116, 27, 27);
 }
 
 @media (max-width: 1024px) {
@@ -90,6 +90,7 @@ footer {
         flex-direction: column;
         justify-content: flex-start;
         align-items: center;
+        margin: 0;
     }
     footer {
         height: auto;

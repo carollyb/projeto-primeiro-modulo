@@ -2,7 +2,7 @@
 
 
 body {
-    background-image:url(background3.jpg);
+    background-image:url(./background4.png);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,7 +13,7 @@ body {
 
 .apresentacaoPersonagem {
     font-family: 'Syne', sans-serif;
-    color: rgb(58, 25, 90);
+    color: rgb(116, 27, 27);
     border-radius: 30px;
     font-size: 30px;
     height: auto;
@@ -38,7 +38,7 @@ body {
 }
 
 .opcoes {
-    color: rgb(58, 25, 90);
+    color: rgb(116, 27, 27);
     height: 200px;
     width: 300px;
     text-align: center;
@@ -56,20 +56,20 @@ body {
 .botao {
     height: 50px;
     background-color:rgba(255, 255, 255, 0.425);
-    color: rgb(58, 25, 90);
+    color: rgb(116, 27, 27);
     border-radius: 10px;
-    border-color: rgb(58, 25, 90);
+    border-color: rgb(116, 27, 27);
     border-style: solid;
     transition: 1s;
 }
 .botao:hover {
     cursor:pointer;
-    background-color:  rgba(73, 27, 116, 0.424);
+    background-color:  rgba(116, 27, 27, 0.233);
 }
 
 .vitoria {
     font-family: 'Syne', sans-serif;
-    color:rgba(73, 27, 116, 0.424);
+    color:rgba(116, 27, 27, 0.582);
     font-size: 100px;
     margin: 0 auto;
     text-align: center;
