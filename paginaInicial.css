@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto+Mono:wght@600&family=Syne:wght@700&display=swap');
 
+header {
+    margin: -8px -8px 0 -8px;
+    font-family: 'Syne', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    height: 40px;
+    background-color: rgb(116, 27, 27);
+}
+
 .bemvindo {
     background-image:url(./background4.png);
     background-size: cover;
