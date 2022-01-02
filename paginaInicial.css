@@ -80,6 +80,10 @@ footer {
     background-color: rgb(116, 27, 27);
 }
 
+.iconesRedes{
+    color: white;
+}
+
 @media (max-width: 1024px) {
 
     .bemvindo {
